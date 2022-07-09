@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@300;400;500&family=Josefin+Sans:wght@300;400;600&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@700&family=Lexend+Deca&family=Libre+Franklin:wght@300;600;700&family=Manrope:wght@500;700;800&family=Outfit:wght@300;400;600&family=Play:wght@400;700&family=Poppins:wght@400;500;600;700&family=Rubik:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Rubik";
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+body main {
+  width: 100%;
+  height: 100vh;
+}
+body main .top-section {
+  width: 100%;
+  height: 30vh;
+  background-image: url(../images/pattern-bg.png);
+  background-position: center center;
+  background-size: cover;
+}
+body main .top-section h1 {
+  width: 50%;
+  margin-inline: auto;
+  text-align: center;
+  color: white;
+  padding-top: 1em;
+  font-size: 22px;
+  font-weight: 500;
+}
+body main .top-section form {
+  margin-top: 1em;
+  position: relative;
+  width: 35%;
+  height: 6vh;
+  margin-inline: auto;
+}
+body main .top-section form input {
+  width: 100%;
+  height: 6vh;
+  border: none;
+  outline: none;
+  border-radius: 0.5em;
+  padding: 0 0.7em;
+  font-size: 16px;
+}
+body main .top-section form input::-moz-placeholder {
+  color: hsl(0deg, 0%, 17%);
+  font-size: 16px;
+}
+body main .top-section form input:-ms-input-placeholder {
+  color: hsl(0deg, 0%, 17%);
+  font-size: 16px;
+}
+body main .top-section form input::placeholder {
+  color: hsl(0deg, 0%, 17%);
+  font-size: 16px;
+}
+body main .top-section form button {
+  position: absolute;
+  width: 60px;
+  height: 6vh;
+  top: 0;
+  right: 0;
+  background-color: hsl(0deg, 0%, 17%);
+  border: none;
+  outline: none;
+  border-radius: 0 0.5em 0.5em 0;
+  transition: all 0.6s ease-in-out;
+}
+body main .top-section form button:hover {
+  cursor: pointer;
+  background-color: hsl(0deg, 0%, 59%);
+}
+body main .top-section .output-section {
+  position: absolute;
+  width: 80%;
+  height: 20vh;
+  top: 20%;
+  left: calc(50% - 576px);
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 1em;
+  z-index: 10;
+}
+body main .top-section .output-section .output-child h2 {
+  color: hsl(0deg, 0%, 59%);
+  font-size: 12px;
+}
+body main .top-section .output-section .output-child p {
+  margin-top: 0.5em;
+  color: hsl(0deg, 0%, 17%);
+  font-weight: 700;
+  font-size: 24px;
+}
+body main .bottom-section {
+  width: 100%;
+  height: 70vh;
+}
+body main .bottom-section img {
+  width: 100%;
+  height: 70vh;
+}/*# sourceMappingURL=style.css.map */
